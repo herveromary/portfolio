@@ -1,0 +1,11 @@
+.navbar-container {
+  background-color: blue;
+  margin: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-item {
+  margin: 0px;
+  padding: 10px;
+}
