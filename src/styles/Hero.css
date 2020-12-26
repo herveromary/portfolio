@@ -10,15 +10,18 @@
 }
 
 .hero-photo {
-  width: 500px;
+  width: 350px;
+  object-fit: contain;
+  max-width: 100%;
 }
 
 .hero-technos {
-  height: 250px;
+  width: 250px;
+  max-width: 75%;
 }
 
 @media screen and (max-width: 550px) {
   .hero-container {
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
   }
 }

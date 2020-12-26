@@ -19,7 +19,11 @@ export default function Hero() {
             Je suis développeur fullstack React/Node.js à la recherche d'un
             stage
           </h2>
-          <img className='hero-technos' src={MesTechnos} alt='Hervé Romary' />
+          <img
+            className='hero-technos'
+            src={MesTechnos}
+            alt='Les technologies que je maitrise : react et node js'
+          />
         </div>
       </div>
     </>

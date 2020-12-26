@@ -21,7 +21,10 @@ function App() {
       <Contact />
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
-        <p>En construction...</p>
+        <p>
+          Réalisé avec React. Hébergé par Github et déployé par HerokuApp. Ne
+          collecte aucune donnée personnelle.
+        </p>
         <a
           className='App-link'
           href='https://www.linkedin.com/in/herveromary/'
