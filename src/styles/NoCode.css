@@ -1,9 +1,17 @@
 .nocode-container {
-  background-color: rgb(153, 235, 99);
+  background-color: rgb(154, 250, 98);
   margin: 0px;
   height: auto;
   min-height: 100vh;
   padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nocode-titre-container {
+  width: 100%;
 }
 
 .nocode-list {
@@ -11,5 +19,5 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: baseline;
+  align-items: center;
 }

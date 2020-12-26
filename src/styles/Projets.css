@@ -4,6 +4,14 @@
   height: auto;
   min-height: 100vh;
   padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projets-titre-container {
+  width: 100%;
 }
 
 .projets-list {
@@ -11,5 +19,5 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: baseline;
+  align-items: center;
 }

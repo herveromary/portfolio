@@ -6,6 +6,9 @@ import maPhoto from '../assets/MaPhoto.png';
 import MesTechnos from '../assets/MesTechnos.png';
 
 export default function Hero() {
+  const handleClick = () => {
+    console.log('clic');
+  };
   return (
     <>
       <div className='hero-container'>
@@ -24,6 +27,12 @@ export default function Hero() {
             src={MesTechnos}
             alt='Les technologies que je maitrise : react et node js'
           />
+          <button onClick={() => handleClick()}>Contactez-moi</button>
+          <button onClick={() => handleClick()}>Regardez mon travail</button>
+
+          <button onClick={() => handleClick()}>
+            Arrêter cette roue pour économiser de l'énergie !
+          </button>
         </div>
       </div>
     </>

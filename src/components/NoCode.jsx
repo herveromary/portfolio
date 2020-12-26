@@ -14,7 +14,7 @@ import captureCourils from '../assets/capture-courtils.png';
 import captureGaby from '../assets/capture-gaby.png';
 
 export default function NoCode() {
-  const projects = [
+  const nocode = [
     {
       name: 'RoseBrangier.fr',
       description: `Site de l'auteur Rose Brangier`,
@@ -92,10 +92,12 @@ export default function NoCode() {
   return (
     <>
       <div className='nocode-container'>
-        <h2 className='titre'>Mes travaux #NoCode</h2>
-        <div className='projets-list'>
-          {projects.map((project) => (
-            <ProjectCard key={projects.name} project={project} />
+        <div className='nocode-titre-container'>
+          <h2 className='titre'>Mes projets</h2>
+        </div>
+        <div className='nocode-list'>
+          {nocode.map((project) => (
+            <ProjectCard key={project.name} project={project} />
           ))}
         </div>
       </div>
