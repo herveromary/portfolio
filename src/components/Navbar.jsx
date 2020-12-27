@@ -23,6 +23,9 @@ const Navbar = () => {
   return (
     <header className={x.join(' ')}>
       <div className='navbar'>
+        <a className='navbar-item-link' href='https://github.com/herveromary/'>
+          <p className='navbar-item'>Accueil</p>
+        </a>
         <p className='navbar-item'>Accueil</p>
         <p className='navbar-item'>Projets</p>
         <p className='navbar-item'>NoCode</p>
@@ -33,33 +36,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// import React, { useEffect, useState } from 'react';
-
-// import '../styles/Navbar.css';
-
-// export default function Navbar() {
-//   const [scrolled, setScrolled] = React.useState(false);
-
-//   const handleScroll = () => {
-//     const offset = window.scrollY;
-//     if (offset > 200) {
-//       setScrolled(true);
-//     } else {
-//       setScrolled(false);
-//     }
-//   };
-
-//   useEffect(() => {
-//     window.addEventListener('scroll', handleScroll);
-//   });
-
-//   let navbarClasses = ['navbar'];
-//   if (scrolled) {
-//     navbarClasses.push('scrolled');
-//   }
-
-//   return (
-
-//   );
-// }

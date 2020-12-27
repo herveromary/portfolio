@@ -1,6 +1,7 @@
 .project-card {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
+  font-size: calc(10px + 1vmin);
 }
 
 .S:hover {

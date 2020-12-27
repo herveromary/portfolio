@@ -5,6 +5,7 @@
   min-height: 100vh;
   padding: 30px 30px 30px 30px;
   color: white;
+  font-size: calc(10px + 1.3vmin);
   font-family: 'Josefin Sans', sans-serif;
 }
 

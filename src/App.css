@@ -30,6 +30,10 @@
   pointer-events: none;
 }
 
+.titre {
+  font-size: calc(10px + 2.5vmin);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

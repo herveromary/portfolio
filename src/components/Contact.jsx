@@ -11,7 +11,7 @@ export default function Contact() {
     <>
       <div className='contact-container'>
         <div className='contact-title'>
-          <h2>Contactez-moi !</h2>
+          <h2 className='titre'>Contactez-moi !</h2>
         </div>
         <div className='contact-options-container'>
           <div className='contact-details'>
