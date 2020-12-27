@@ -10,7 +10,6 @@ h3 {
 }
 
 .hero-container {
-  background-color: rgb(200, 198, 32);
   margin: 0px;
   height: auto;
   min-height: 100vh;
@@ -69,3 +68,5 @@ h3 {
     display: none;
   }
 }
+
+/* background-color: rgb(200, 198, 32); */

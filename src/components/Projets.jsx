@@ -36,7 +36,7 @@ export default function Projets() {
       technos: 'React / Node.js / Express / MySQL',
       capture: `${captureGoldAndGods}`,
       size: 'S',
-      link: '',
+      link: '#',
     },
     {
       name: 'Neurolab',

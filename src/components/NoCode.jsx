@@ -93,7 +93,7 @@ export default function NoCode() {
     <>
       <div className='nocode-container'>
         <div className='nocode-titre-container'>
-          <h2 className='titre'>Mes projets</h2>
+          <h2 className='titre'>Mes projets #NoCode</h2>
         </div>
         <div className='nocode-list'>
           {nocode.map((project) => (

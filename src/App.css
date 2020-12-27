@@ -1,7 +1,30 @@
 .App {
   text-align: center;
+  transition: background-color 1s ease;
+  background-color: black;
 }
 
+.defil1 {
+  text-align: center;
+  transition: background-color 1s ease;
+  background-color: tomato;
+}
+
+.defil2 {
+  text-align: center;
+  transition: background-color 1s ease;
+  background-color: teal;
+}
+.defil3 {
+  text-align: center;
+  transition: background-color 1s ease;
+  background-color: sandybrown;
+}
+.defil4 {
+  text-align: center;
+  transition: background-color 1s ease;
+  background-color: skyblue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
