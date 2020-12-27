@@ -1,24 +1,27 @@
 .project-card {
 }
 
-.project-card:hover {
-  background-color: lightblue;
+.S:hover {
+  border: 5px solid white;
 }
 
 .S {
   width: 200px;
   max-width: 100%;
+  border: 3px solid white;
 }
 
 .L {
   width: 300px;
   max-width: 100%;
-  background-color: lightblue;
+
+  border: 3px solid white;
 }
 
 .project-description {
   width: 400px;
   overflow-wrap: break-word;
+  color: aliceblue;
 }
 
 a:link {
