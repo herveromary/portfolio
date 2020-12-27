@@ -2,28 +2,33 @@
   text-align: center;
   transition: background-color 1s ease;
   background-color: tomato;
+  cursor: url('./assets//react-logo-mini.png'), pointer;
 }
 
 .defil1 {
   text-align: center;
   transition: background-color 2s ease;
   background-color: tomato;
+  cursor: url('./assets//react-logo-mini.png'), pointer;
 }
 
 .defil2 {
   text-align: center;
   transition: background-color 2s ease;
   background-color: teal;
+  cursor: url('./assets//react-logo-mini.png'), pointer;
 }
 .defil3 {
   text-align: center;
   transition: background-color 2s ease;
   background-color: rgb(200, 198, 32);
+  cursor: url('./assets//react-logo-mini.png'), pointer;
 }
 .defil4 {
   text-align: center;
   transition: background-color 2s ease;
   background-color: skyblue;
+  cursor: url('./assets//react-logo-mini.png'), pointer;
 }
 .App-logo {
   height: 40vmin;

@@ -56,6 +56,7 @@ function App() {
       <Projets />
       <NoCode />
       <Contact />
+
       <header className='App-header'>
         <p>Réalisé avec React. Hébergé par Github et déployé par Heroku.</p>
       </header>

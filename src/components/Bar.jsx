@@ -1,30 +1,23 @@
-import React, { useEffect } from 'react';
-import '../styles/Navbar.css';
+import React, { Component } from 'react';
+import logo from '../assets/logoGithub.png';
+
 import { Link, animateScroll as scroll } from 'react-scroll';
 
-const Navbar = () => {
-  const [scrolled, setScrolled] = React.useState(false);
-
-  const handleScroll = () => {
-    const offset = window.scrollY;
-    if (offset > 1) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
+export default class Navbar extends Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
   };
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-  });
 
-  let x = ['navbar'];
-  if (scrolled) {
-    x.push('scrolled');
-  }
-  return (
-    <header className={x.join(' ')}>
-      <nav className='navbar' id='navbar'>
-        <div className='navbar'>
+  render() {
+    return (
+      <nav className='nav' id='navbar'>
+        <div className='nav-content'>
+          <img
+            src={logo}
+            className='nav-logo'
+            alt='Logo'
+            onClick={this.scrollToTop}
+          />
           <ul className='nav-items'>
             <li className='nav-item'>
               <Link
@@ -77,20 +70,18 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link
                 activeClass='active'
-                to='contact'
+                to='section5'
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Contact
+                Section 5
               </Link>
             </li>
           </ul>
         </div>
       </nav>
-    </header>
-  );
-};
-
-export default Navbar;
+    );
+  }
+}
