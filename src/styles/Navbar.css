@@ -1,26 +1,30 @@
 .navbar {
+  height: 8vh;
   width: 100%;
-  max-width: 100%;
-  min-height: 4vh;
   box-sizing: border-box;
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-end;
-  background-color: rgba(255, 255, 255, 0.1);
+  align-items: center;
+  background-color: transparent;
   transition: all 0.4s ease;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  border-bottom: 1px solid #282c34;
 }
 
 .scrolled {
+  height: 5vh;
+  height: auto;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #282c34;
   backdrop-filter: blur(8px);
 }
 .logo img {
   width: 50px;
 }
-
+/* 
 .navigation {
   ul {
     box-sizing: border-box;
@@ -45,4 +49,4 @@
       color: inherit;
     }
   }
-}
+} */
