@@ -9,9 +9,9 @@ import captureCtd from '../assets/capture-CTD.png';
 import captureDufresne from '../assets/capture-dufresne.png';
 import captureQualtitude from '../assets/capture-qualtitude.png';
 import captureQualtitudeenligne from '../assets/capture-qualtitudeenligne.png';
-import captureEcole from '../assets/capture-ecole.png';
+//import captureEcole from '../assets/capture-ecole.png';
 import captureCourils from '../assets/capture-courtils.png';
-import captureGaby from '../assets/capture-gaby.png';
+//import captureGaby from '../assets/capture-gaby.png';
 
 export default function NoCode() {
   const nocode = [

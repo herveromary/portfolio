@@ -10,6 +10,7 @@
   color: white;
   font-family: 'Josefin Sans', sans-serif;
   border-bottom: 1px solid #282c34;
+  z-index: 10;
 }
 
 .navbar-item-link:visited {
@@ -31,7 +32,6 @@
   top: 0;
   left: 0;
   background-color: #282c34;
-  backdrop-filter: blur(8px);
 }
 .logo img {
   width: 50px;

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -58,7 +57,7 @@ function App() {
       <NoCode />
       <Contact />
       <header className='App-header'>
-        <p>Réalisé avec React. Hébergé par Github et déployé par HerokuApp.</p>
+        <p>Réalisé avec React. Hébergé par Github et déployé par Heroku.</p>
       </header>
     </div>
   );

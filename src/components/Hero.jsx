@@ -6,9 +6,6 @@ import maPhoto from '../assets/MaPhoto.png';
 import MesTechnos from '../assets/MesTechnos.png';
 
 export default function Hero() {
-  const handleClick = () => {
-    console.log('clic');
-  };
   return (
     <>
       <div className='hero-container'>
