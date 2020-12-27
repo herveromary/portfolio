@@ -17,8 +17,8 @@ export default function NoCode() {
   const nocode = [
     {
       name: 'RoseBrangier.fr',
-      description: `Site de l'auteur Rose Brangier`,
-      orga: 'Blog',
+      description: `Site de l'auteure Rose Brangier`,
+      orga: '',
       technos: 'Wordpress',
       capture: `${captureRosebrangier}`,
       size: 'L',
@@ -27,7 +27,7 @@ export default function NoCode() {
     {
       name: 'ClaireThomasDufresne.art',
       description: `Site de l'artiste Claire Thomas-Dufresne`,
-      orga: 'Site marchand',
+      orga: '',
       technos: 'Wordpress / WooCommerce',
       capture: `${captureCtd}`,
       size: 'L',
@@ -36,7 +36,7 @@ export default function NoCode() {
     {
       name: 'Dufresne-cl.fr',
       description: `Site du bijoutier Laurent Dufresne`,
-      orga: 'Site marchant',
+      orga: '',
       technos: 'Wordpress / WooCommerce',
       capture: `${captureDufresne}`,
       size: 'L',
@@ -45,7 +45,7 @@ export default function NoCode() {
     {
       name: 'Qualtitude.fr',
       description: `Site de la société de coaching Qualtitude`,
-      orga: 'Site vitrine',
+      orga: '',
       technos: 'Wordpress',
       capture: `${captureQualtitude}`,
       size: 'L',
@@ -54,21 +54,21 @@ export default function NoCode() {
     {
       name: 'Qualtitude-enligne.fr',
       description: `Plateforme de formation en ligne de la société Qualtitude`,
-      orga: 'Plateforme de formation',
+      orga: '',
       technos: 'Moodle',
       capture: `${captureQualtitudeenligne}`,
       size: 'L',
       link: 'https://qualtitude.fr/',
     },
-    {
-      name: 'Ecole-Montessori-Petit-Bois.fr',
-      description: `Site d'une future école Montessori'`,
-      orga: 'Site vitrine (en cours)',
-      technos: 'Webflow',
-      capture: `${captureEcole}`,
-      size: 'L',
-      link: 'https://ecole-montessori-petit-bois.webflow.io/',
-    },
+    // {
+    //   name: 'Ecole-Montessori-Petit-Bois.fr',
+    //   description: `Site d'une future école Montessori'`,
+    //   orga: '',
+    //   technos: 'Webflow',
+    //   capture: `${captureEcole}`,
+    //   size: 'L',
+    //   link: 'https://ecole-montessori-petit-bois.webflow.io/',
+    // },
     {
       name: 'ChambresdHotes-Ploermel.fr',
       description: `Site de chambres d'hôtes`,
@@ -78,15 +78,15 @@ export default function NoCode() {
       size: 'L',
       link: 'https://chambres-dhotes-ploermel.webflow.io/',
     },
-    {
-      name: 'GabyCreation.com',
-      description: `Site d'une artiste sculptrice de verre'`,
-      orga: 'Site vitrine (en cours)',
-      technos: 'Webflow',
-      capture: `${captureGaby}`,
-      size: 'L',
-      link: 'https://gaby-creations.webflow.io/',
-    },
+    // {
+    //   name: 'GabyCreation.com',
+    //   description: `Site d'une artiste sculptrice de verre'`,
+    //   orga: '',
+    //   technos: 'Webflow',
+    //   capture: `${captureGaby}`,
+    //   size: 'L',
+    //   link: 'https://gaby-creations.webflow.io/',
+    // },
   ];
 
   return (

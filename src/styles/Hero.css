@@ -1,12 +1,21 @@
 h1 {
   color: aliceblue;
+
+  font-family: 'Josefin Sans', sans-serif;
 }
 h2 {
   color: aliceblue;
+
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h3 {
   color: aliceblue;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.p {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .hero-container {

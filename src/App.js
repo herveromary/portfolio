@@ -30,11 +30,10 @@ function App() {
       //setScrolled(2);
       setAppClass('defil3');
     }
-    if (offset > 3400) {
+    if (offset > 3000) {
       //setScrolled(2);
       setAppClass('defil4');
     }
-    console.log(offset);
   };
 
   //console.log(scrolled);
@@ -59,19 +58,7 @@ function App() {
       <NoCode />
       <Contact />
       <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Réalisé avec React. Hébergé par Github et déployé par HerokuApp. Ne
-          collecte aucune donnée personnelle.
-        </p>
-        <a
-          className='App-link'
-          href='https://www.linkedin.com/in/herveromary/'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          LinkendIn
-        </a>
+        <p>Réalisé avec React. Hébergé par Github et déployé par HerokuApp.</p>
       </header>
     </div>
   );

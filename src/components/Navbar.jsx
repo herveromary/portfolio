@@ -22,10 +22,6 @@ const Navbar = () => {
   }
   return (
     <header className={x.join(' ')}>
-      <div className='logo'>
-        <p>logo</p>
-      </div>
-
       <div className='navbar'>
         <p className='navbar-item'>Accueil</p>
         <p className='navbar-item'>Projets</p>

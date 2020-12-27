@@ -1,28 +1,28 @@
 .App {
   text-align: center;
   transition: background-color 1s ease;
-  background-color: black;
+  background-color: tomato;
 }
 
 .defil1 {
   text-align: center;
-  transition: background-color 1s ease;
+  transition: background-color 2s ease;
   background-color: tomato;
 }
 
 .defil2 {
   text-align: center;
-  transition: background-color 1s ease;
+  transition: background-color 2s ease;
   background-color: teal;
 }
 .defil3 {
   text-align: center;
-  transition: background-color 1s ease;
-  background-color: sandybrown;
+  transition: background-color 2s ease;
+  background-color: rgb(200, 198, 32);
 }
 .defil4 {
   text-align: center;
-  transition: background-color 1s ease;
+  transition: background-color 2s ease;
   background-color: skyblue;
 }
 .App-logo {
@@ -38,12 +38,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  max-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: white;
 }
 

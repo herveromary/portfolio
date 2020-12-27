@@ -4,6 +4,8 @@
   height: auto;
   min-height: 100vh;
   padding: 30px 30px 30px 30px;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .contact-options-container {
