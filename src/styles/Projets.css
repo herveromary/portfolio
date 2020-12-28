@@ -1,4 +1,4 @@
-.projets-container {
+.project-section {
   background-color: transparent;
   margin: 0px;
   height: auto;
@@ -8,17 +8,30 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  font-size: calc(10px + 2.5vmin);
 }
 
-.projets-titre-container {
+.project-title-container {
+  width: 90%;
+}
+
+.project-cards-container {
   width: 100%;
-}
-
-.projets-list {
   margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  min-width: 100%;
+}
+
+.project-card {
+  width: 500px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .project-card {
+    width: 330px;
+    margin: 10px;
+  }
 }

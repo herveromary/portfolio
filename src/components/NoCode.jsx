@@ -58,7 +58,7 @@ export default function NoCode() {
       technos: 'Moodle',
       capture: `${captureQualtitudeenligne}`,
       size: 'L',
-      link: 'https://qualtitude.fr/',
+      link: 'https://qualtitude-enligne.fr/',
     },
     // {
     //   name: 'Ecole-Montessori-Petit-Bois.fr',

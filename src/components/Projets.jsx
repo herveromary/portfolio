@@ -29,9 +29,12 @@ export default function Projets() {
       size: 'S',
       link: 'https://bet-app0920.herokuapp.com/',
     },
+  ];
+
+  const projects2 = [
     {
       name: 'Gold And Gods',
-      description: `Application web d'offrandes en ligne développé dans le cadre d'un hackathon sur le thème "retour vers le futur. Déploiement en cours.`,
+      description: `Application web d'offrandes en ligne développée dans le cadre d'un hackathon sur le thème "retour vers le futur. Déploiement en cours.`,
       orga: 'Equipe de 5, Hackathon',
       technos: 'React / Node.js / Express / MySQL',
       capture: `${captureGoldAndGods}`,
@@ -50,16 +53,27 @@ export default function Projets() {
 
   return (
     <>
-      <section id='projets'>
-        <div className='projets-container'>
-          <div className='projets-titre-container'>
-            <h2 className='titre'>Mes projets</h2>
-          </div>
-          <div className='projets-list'>
-            {projects.map((project) => (
-              <ProjectCard key={project.name} project={project} />
-            ))}
-          </div>
+      <section className='project-section' id='projets'>
+        <div className='project-title-container'>
+          <h2 className='titre'>Mes projets</h2>
+        </div>
+        <div className='project-cards-container'>
+          {projects.map((project) => (
+            <ProjectCard
+              className='project-card'
+              key={project.name}
+              project={project}
+            />
+          ))}
+        </div>
+        <div className='project-cards-container'>
+          {projects2.map((project) => (
+            <ProjectCard
+              className='project-card'
+              key={project.name}
+              project={project}
+            />
+          ))}
         </div>
       </section>
     </>

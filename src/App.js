@@ -25,11 +25,11 @@ function App() {
       //setScrolled(2);
       setAppClass('defil2');
     }
-    if (offset > 1800) {
+    if (offset > 1600) {
       //setScrolled(2);
       setAppClass('defil3');
     }
-    if (offset > 2900) {
+    if (offset > 2800) {
       //setScrolled(2);
       setAppClass('defil4');
     }
