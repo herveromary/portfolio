@@ -1,11 +1,21 @@
 import React from 'react';
+import { ScrollRotate } from 'react-scroll-rotate';
 
 import '../styles/Hero.css';
 
 import maPhoto from '../assets/MaPhoto.png';
-import MesTechnos from '../assets/MesTechnos.png';
+import logoReact from '../assets/MesTechnos.png';
+import toutesTechnos from '../assets/toutesTechnos.png';
 
 export default function Hero() {
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
+  // }, []);
+
+  // const handleScroll = () => {
+
+  // }
+
   return (
     <>
       <section id='hero'>
@@ -20,11 +30,20 @@ export default function Hero() {
               Je suis développeur fullstack React-Node.js à la recherche d'un
               stage
             </h2>
-            <img
-              className='hero-technos'
-              src={MesTechnos}
-              alt='Les technologies que je maitrise : react et node js'
-            />
+            <div className='hero-logos'>
+              <ScrollRotate>
+                <img
+                  className='hero-logo-react'
+                  src={logoReact}
+                  alt='Les technologies que je maitrise : react et node js'
+                />
+              </ScrollRotate>
+              <img
+                className='hero-logos-technos'
+                src={toutesTechnos}
+                alt='Les technologies que je maitrise : react et node js'
+              />
+            </div>
             {/* <div className='hero-button-container'>
             <button className='button-main' onClick={() => handleClick()}>
               Contactez-moi

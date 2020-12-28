@@ -44,10 +44,19 @@ h3 {
   max-width: 100%;
 }
 
-.hero-technos {
-  width: 250px;
-  max-width: 75%;
+.hero-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.hero-logo-react {
+  width: 200px;
+}
+
+.hero-logos-technos {
   padding: 40px;
+  width: 200px;
 }
 
 .hero-button-container {

@@ -30,19 +30,9 @@ function App() {
     }
   };
 
-  //console.log(scrolled);
-
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
   }, []);
-
-  // let x = ['App'];
-  // if (scrolled === 1) {
-  //   setAppClass('defil1');
-  // }
-  // if (scrolled === 2) {
-  //   setAppClass('defil2');
-  // }
 
   return (
     <div className={appClass}>
