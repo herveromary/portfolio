@@ -6,11 +6,6 @@ import NoCode from './components/NoCode';
 import Contact from './components/Contact';
 import React, { useEffect } from 'react';
 
-console.log('Mmmm elle est propre cette console ! Nothing to see here');
-console.log(
-  'Mais au cas où je vous remets mon Linkedin : https://www.linkedin.com/in/herveromary/'
-);
-
 function App() {
   //const [scrolled, setScrolled] = React.useState(0);
   const [appClass, setAppClass] = React.useState('App');
@@ -21,15 +16,15 @@ function App() {
       //setScrolled(1);
       setAppClass('defil1');
     }
-    if (offset > 600) {
+    if (offset > 700) {
       //setScrolled(2);
       setAppClass('defil2');
     }
-    if (offset > 1600) {
+    if (offset > 1800) {
       //setScrolled(2);
       setAppClass('defil3');
     }
-    if (offset > 2800) {
+    if (offset > 3000) {
       //setScrolled(2);
       setAppClass('defil4');
     }
