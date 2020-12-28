@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../styles/Navbar.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = React.useState(false);
@@ -29,49 +29,37 @@ const Navbar = () => {
             <li className='nav-item'>
               <Link
                 activeClass='active'
-                to='section1'
+                to='hero'
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 1
+                Accueil
               </Link>
             </li>
             <li className='nav-item'>
               <Link
                 activeClass='active'
-                to='section2'
+                to='projets'
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 2
+                Mes projets
               </Link>
             </li>
             <li className='nav-item'>
               <Link
                 activeClass='active'
-                to='section3'
+                to='nocode'
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 3
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                activeClass='active'
-                to='section4'
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Section 4
+                #NoCode
               </Link>
             </li>
             <li className='nav-item'>

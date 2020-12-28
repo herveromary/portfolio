@@ -13,14 +13,18 @@
   border: 5px solid white;
 }
 
+.S:hover {
+  border: 5px solid white;
+}
+
 .S {
-  width: 200px;
+  width: 150px;
   max-width: 100%;
   border: 3px solid white;
 }
 
 .L {
-  width: 300px;
+  width: 250px;
   max-width: 100%;
 
   border: 3px solid white;

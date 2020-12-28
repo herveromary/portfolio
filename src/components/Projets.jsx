@@ -52,16 +52,18 @@ export default function Projets() {
 
   return (
     <>
-      <div className='projets-container'>
-        <div className='projets-titre-container'>
-          <h2 className='titre'>Mes projets</h2>
+      <section id='projets'>
+        <div className='projets-container'>
+          <div className='projets-titre-container'>
+            <h2 className='titre'>Mes projets</h2>
+          </div>
+          <div className='projets-list'>
+            {projects.map((project) => (
+              <ProjectCard key={project.name} project={project} />
+            ))}
+          </div>
         </div>
-        <div className='projets-list'>
-          {projects.map((project) => (
-            <ProjectCard key={project.name} project={project} />
-          ))}
-        </div>
-      </div>
+      </section>
     </>
   );
 }

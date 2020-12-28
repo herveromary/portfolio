@@ -90,7 +90,7 @@ export default function NoCode() {
   ];
 
   return (
-    <>
+    <section id='nocode'>
       <div className='nocode-container'>
         <div className='nocode-titre-container'>
           <h2 className='titre'>Mes projets #NoCode</h2>
@@ -101,6 +101,6 @@ export default function NoCode() {
           ))}
         </div>
       </div>
-    </>
+    </section>
   );
 }

@@ -8,23 +8,24 @@ import MesTechnos from '../assets/MesTechnos.png';
 export default function Hero() {
   return (
     <>
-      <div className='hero-container'>
-        <div className='hero-photo-container'>
-          <img className='hero-photo' src={maPhoto} alt='Hervé Romary' />
-        </div>
+      <section id='hero'>
+        <div className='hero-container'>
+          <div className='hero-photo-container'>
+            <img className='hero-photo' src={maPhoto} alt='Hervé Romary' />
+          </div>
 
-        <div className='hero-text-container'>
-          <h1>Bonjour ! Vous cherchez un développeur web ?</h1>
-          <h2>
-            Je suis développeur fullstack React/Node.js à la recherche d'un
-            stage
-          </h2>
-          <img
-            className='hero-technos'
-            src={MesTechnos}
-            alt='Les technologies que je maitrise : react et node js'
-          />
-          {/* <div className='hero-button-container'>
+          <div className='hero-text-container'>
+            <h1>Bonjour ! Vous cherchez un développeur web ?</h1>
+            <h2>
+              Je suis développeur fullstack React-Node.js à la recherche d'un
+              stage
+            </h2>
+            <img
+              className='hero-technos'
+              src={MesTechnos}
+              alt='Les technologies que je maitrise : react et node js'
+            />
+            {/* <div className='hero-button-container'>
             <button className='button-main' onClick={() => handleClick()}>
               Contactez-moi
             </button>
@@ -36,8 +37,9 @@ export default function Hero() {
               Arrêter cette roue pour économiser de l'énergie !
             </button>
           </div> */}
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
