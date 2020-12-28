@@ -13,7 +13,7 @@ export default function Projets() {
   const projects = [
     {
       name: 'Punta Cana Bar',
-      description: 'Site internet vitrine pour un bar',
+      description: 'Site internet vitrine pour un bar.',
       orga: 'Equipe de 4, méthode SCRUM',
       technos: 'HTML / CSS / JS',
       capture: `${capturePuntaCanaBar}`,
@@ -31,22 +31,20 @@ export default function Projets() {
     },
     {
       name: 'Gold And Gods',
-      description: `Application web d'offrandes en ligne développé dans le cadre d'un hackathon sur le thème "retour vers le futur`,
+      description: `Application web d'offrandes en ligne développé dans le cadre d'un hackathon sur le thème "retour vers le futur. Déploiement en cours.`,
       orga: 'Equipe de 5, Hackathon',
       technos: 'React / Node.js / Express / MySQL',
       capture: `${captureGoldAndGods}`,
       size: 'S',
-      link: '#',
     },
     {
       name: 'Neurolab',
       description: `Application web de 'Tableau de bord' pour des simulation
-      d'expériences scientifiques en ligne.`,
+      d'expériences scientifiques en ligne. Développement en cours.`,
       orga: 'Equipe de 5, méthode SCRUM',
       technos: 'React-Redux / Node.js / Express / MySQL',
       capture: `${captureNeurolab}`,
       size: 'S',
-      link: '',
     },
   ];
 

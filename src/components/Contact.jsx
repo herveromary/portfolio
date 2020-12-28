@@ -5,6 +5,7 @@ import photoCv from '../assets/photocv.jpg';
 import telecharger from '../assets/telecharger.png';
 import logoLinkedin from '../assets/logoLinkedin.png';
 import logoGithub from '../assets/logoGithub.png';
+import cv from '../assets/ROMARY-dev-React-CV.pdf';
 
 export default function Contact() {
   return (
@@ -34,15 +35,17 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-            <div className='contact-cv-download'>
-              <div className='container'>
-                <img className='image-cv' src={photoCv} alt='Mon CV' />
-                <img className='image-cv' src={photoCv} alt='Mon CV' />
-                <img className='image-cv' src={photoCv} alt='Mon CV' />
-                <img className='image-cv' src={photoCv} alt='Mon CV' />
-                <img className='image-cv' src={telecharger} alt='Mon CV' />
+            <a className='contact-cv-download' href={cv} target='blank'>
+              <div className='contact-cv-download'>
+                <div className='container'>
+                  <img className='image-cv' src={photoCv} alt='Mon CV' />
+                  <img className='image-cv' src={photoCv} alt='Mon CV' />
+                  <img className='image-cv' src={photoCv} alt='Mon CV' />
+                  <img className='image-cv' src={photoCv} alt='Mon CV' />
+                  <img className='image-cv' src={telecharger} alt='Mon CV' />
+                </div>
               </div>
-            </div>
+            </a>
             <div className='contact-cv-download-mobile'>
               <div className='container'>
                 <a href='https://github.com/herveromary/' target='blank'>
