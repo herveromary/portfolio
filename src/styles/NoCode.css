@@ -1,0 +1,23 @@
+.nocode-container {
+  background-color: transparent;
+  margin: 0px;
+  height: auto;
+  min-height: 100vh;
+  padding: 30px 30px 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nocode-titre-container {
+  width: 100%;
+}
+
+.nocode-list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}

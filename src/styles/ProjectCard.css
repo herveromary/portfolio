@@ -1,0 +1,52 @@
+.project-card {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: calc(10px + 1vmin);
+  margin-bottom: 60px;
+}
+
+.S:hover {
+  border: 5px solid white;
+}
+
+.L:hover {
+  border: 5px solid white;
+}
+
+.S:hover {
+  border: 5px solid white;
+}
+
+.S {
+  width: 150px;
+
+  border: 3px solid white;
+}
+
+.L {
+  width: 250px;
+
+  border: 3px solid white;
+}
+
+.project-description {
+  overflow-wrap: break-word;
+  color: aliceblue;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+/* 
+@media screen and (max-width: 800px) {
+  .project-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+} */
