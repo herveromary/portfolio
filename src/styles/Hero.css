@@ -86,6 +86,7 @@ h3 {
   .hero-container {
     flex-wrap: wrap-reverse;
     background-color: tomato;
+    padding-top: 100px;
   }
   .button-secondary {
     display: none;

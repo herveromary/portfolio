@@ -5,6 +5,7 @@ import Projets from './components/Projets';
 import NoCode from './components/NoCode';
 import Contact from './components/Contact';
 import React, { useEffect } from 'react';
+import Sidebar from './components/Sidebar';
 
 function App() {
   //const [scrolled, setScrolled] = React.useState(0);
@@ -36,6 +37,7 @@ function App() {
 
   return (
     <div className={appClass}>
+      <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
       <Navbar />
       <Hero />
       <Projets />
