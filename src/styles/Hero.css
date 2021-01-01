@@ -36,6 +36,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  margin-top: 50px;
 }
 
 .hero-photo {
@@ -46,8 +47,9 @@ h3 {
 
 .hero-logos {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-logo-react {
@@ -83,6 +85,7 @@ h3 {
 @media screen and (max-width: 550px) {
   .hero-container {
     flex-wrap: wrap-reverse;
+    background-color: tomato;
   }
   .button-secondary {
     display: none;

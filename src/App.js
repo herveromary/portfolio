@@ -43,7 +43,7 @@ function App() {
       <Contact />
 
       <header className='App-header'>
-        <p>Réalisé avec React. Hébergé par Github et déployé par Heroku.</p>
+        <p>Réalisé avec React. Hébergé par Github et déployé par Netlify.</p>
       </header>
     </div>
   );

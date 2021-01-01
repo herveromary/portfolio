@@ -34,4 +34,7 @@
     width: 330px;
     margin: 10px;
   }
+  .project-section {
+    background-color: teal;
+  }
 }
