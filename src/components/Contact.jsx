@@ -18,8 +18,16 @@ export default function Contact() {
           <div className='contact-options-container'>
             <div className='contact-details'>
               <div className='contact-numeros'>
-                <p>06 42 51 22 74</p>
-                <p>herve@romary.io</p>
+                <p>
+                  <a href='tel:+33642512274' target='blank'>
+                    06 42 51 22 74
+                  </a>
+                </p>
+                <p>
+                  <a href='mailto:herve@romary.io' target='blank'>
+                    herve@romary.io
+                  </a>
+                </p>
               </div>
               <div className='contact-logos'>
                 <a
