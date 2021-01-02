@@ -9,9 +9,7 @@ import captureCtd from '../assets/capture-CTD.png';
 import captureDufresne from '../assets/capture-dufresne.png';
 import captureQualtitude from '../assets/capture-qualtitude.png';
 import captureQualtitudeenligne from '../assets/capture-qualtitudeenligne.png';
-//import captureEcole from '../assets/capture-ecole.png';
 import captureCourils from '../assets/capture-courtils.png';
-//import captureGaby from '../assets/capture-gaby.png';
 
 export default function NoCode() {
   const nocode = [
@@ -60,15 +58,7 @@ export default function NoCode() {
       size: 'L',
       link: 'https://qualtitude-enligne.fr/',
     },
-    // {
-    //   name: 'Ecole-Montessori-Petit-Bois.fr',
-    //   description: `Site d'une future école Montessori'`,
-    //   orga: '',
-    //   technos: 'Webflow',
-    //   capture: `${captureEcole}`,
-    //   size: 'L',
-    //   link: 'https://ecole-montessori-petit-bois.webflow.io/',
-    // },
+
     {
       name: 'ChambresdHotes-Ploermel.fr',
       description: `Site de chambres d'hôtes`,
@@ -78,15 +68,6 @@ export default function NoCode() {
       size: 'L',
       link: 'https://chambres-dhotes-ploermel.webflow.io/',
     },
-    // {
-    //   name: 'GabyCreation.com',
-    //   description: `Site d'une artiste sculptrice de verre'`,
-    //   orga: '',
-    //   technos: 'Webflow',
-    //   capture: `${captureGaby}`,
-    //   size: 'L',
-    //   link: 'https://gaby-creations.webflow.io/',
-    // },
   ];
 
   return (

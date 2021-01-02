@@ -29,7 +29,7 @@
   margin: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .project-card {
     width: 330px;
     margin: 10px;

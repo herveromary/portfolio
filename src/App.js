@@ -8,7 +8,6 @@ import React, { useEffect } from 'react';
 import Sidebar from './components/Sidebar';
 
 function App() {
-  //const [scrolled, setScrolled] = React.useState(0);
   const [appClass, setAppClass] = React.useState('App');
 
   const handleScroll = () => {
