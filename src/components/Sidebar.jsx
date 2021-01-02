@@ -47,7 +47,7 @@ export default function Sidebar() {
         offset={0}
         duration={500}
       >
-        <h2 className='burger-menu-item'>Accuel</h2>
+        <h2 className='burger-menu-item'>Accueil</h2>
         <p>Bienvenue sur mon portfolio</p>
       </Link>
 
