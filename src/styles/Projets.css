@@ -33,5 +33,9 @@
   .project-card {
     width: 330px;
     margin: 10px;
+    margin-bottom: 25px;
+  }
+  .project-section {
+    background-color: teal;
   }
 }
